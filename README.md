@@ -36,7 +36,6 @@
 
 - Installing Scientific Packages for Python3 on MacOS 10.9 Mavericks [[Markdown](./tutorials/installing_scientific_packages.md)]
 
-
 - Sorting CSV files using the Python csv module [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/sorting_csvs.ipynb)]
 
 - Using Cython with and without IPython magic [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/running_cython.ipynb)]
@@ -51,6 +50,12 @@
 
 - Quick guide for dealing with missing numbers in NumPy [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/numpy_nan_quickguide.ipynb)]
 
+- A random collection of useful Python snippets [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/python_patterns/patterns.ipynb)]
+
+- Things in pandas I wish I'd had known earlier [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb)]
+
+
+
 <br>
 
 
@@ -59,15 +64,14 @@
 
 - Creating internal links in IPython Notebooks and Markdown docs [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/table_of_contents_ipython.ipynb)]  
 
-- Converting Markdown to HTML and adding Python syntax highlighting [[Markdown](./tutorials/markdown_syntax_highlighting/README.md)] 
+- Converting Markdown to HTML and adding Python syntax highlighting [[Markdown](./tutorials/markdown_syntax_highlighting/README.md)]
 
 
 <br>
-###// Algorithms
+###// Algorithms and Data Structures
 [[back to top](#a-collection-of-useful-scripts-tutorials-and-other-python-related-things)]
 
-*The algorithms category has been moved to a separate GitHub repository [rasbt/algorithms_in_ipython_notebooks](https://github.com/rasbt/algorithms_in_ipython_notebooks)*
-
+*This category has been moved to a separate GitHub repository [rasbt/algorithms_in_ipython_notebooks](https://github.com/rasbt/algorithms_in_ipython_notebooks)*
 
 
 - Sorting Algorithms [[IPython nb](http://nbviewer.ipython.org/github/rasbt/algorithms_in_ipython_notebooks/blob/master/ipython_nbs/sorting/sorting_algorithms.ipynb?create=1)]
@@ -76,9 +80,9 @@
 
 - Dixon's Q test to identify outliers for small sample sizes [[IPython nb](http://nbviewer.ipython.org/github/rasbt/algorithms_in_ipython_notebooks/blob/master/ipython_nbs/statistics/dixon_q_test.ipynb?create=1)]
 
-- Sequential Selection Algorithms [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/sorting_csvs.ipynb)]
-
 - Counting points inside a hypercube [[IPython nb](http://nbviewer.ipython.org/github/rasbt/algorithms_in_ipython_notebooks/blob/master/ipython_nbs/geometry/points_in_hybercube.ipynb)]
+
+- Singly Linked List [[ IPython nbviewer ](http://nbviewer.ipython.org/github/rasbt/algorithms_in_ipython_notebooks/blob/master/ipython_nbs/data-structures/singly-linked-list.ipynb)]
 
 <br>
 ###// Plotting and Visualization
@@ -98,9 +102,15 @@
 ###// Benchmarks
 [[back to top](#a-collection-of-useful-scripts-tutorials-and-other-python-related-things)]
 
-*The benchmark category has been moved to a separate GitHub repository [One-Python-benchmark-per-day](https://github.com/rasbt/One-Python-benchmark-per-day)*
+
+- Simple tricks to speed up the sum calculation in pandas [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/benchmarks/pandas_sum_tricks.ipynb)]
+
+<br>
+*More benchmarks can be found in the separate GitHub repository [One-Python-benchmark-per-day](https://github.com/rasbt/One-Python-benchmark-per-day)*
 
 **Featured articles**:  
+
+
 
 - (C)Python compilers - Cython vs. Numba vs. Parakeet [[IPython nb](http://nbviewer.ipython.org/github/rasbt/One-Python-benchmark-per-day/blob/master/ipython_nbs/day4_2_cython_numba_parakeet.ipynb)]
 
@@ -112,10 +122,10 @@
 
 - Vectorizing a classic for-loop in NumPy [[IPython nb](http://nbviewer.ipython.org/github/rasbt/One-Python-benchmark-per-day/blob/master/ipython_nbs/day16_numpy_vectorization.ipynb)]
 
-<br> 
+<br>
 
 
-###// Python and "Data Science" 
+###// Python and "Data Science"
 [[back to top](#a-collection-of-useful-scripts-tutorials-and-other-python-related-things)]
 
 *The "data science"-related posts have been moved to a separate GitHub repository [pattern_classification](https://github.com/rasbt/pattern_classification)*
@@ -140,66 +150,77 @@
 
 - [watermark](https://github.com/rasbt/watermark) - An IPython magic extension for printing date and time stamps, version numbers, and hardware information.
 
-- [Shell script](./useful_scripts/prepend_python_shebang.sh) for prepending Python-shebangs to .py files.
+- [Shell script](./useful_scripts/prepend_python_shebang.sh) For prepending Python-shebangs to .py files.
 
-- convert 'tab-delimited' to 'comma-separated' CSV files [[IPython nb](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/useful_scripts/fix_tab_csv.ipynb)]
+- A random string generator [function](./useful_scripts/random_string_generator.py).
 
-- A random string generator [function](./useful_scripts/random_string_generator.py)
+- [Converting large CSV files](https://github.com/rasbt/python_reference/blob/master/useful_scripts/large_csv_to_sqlite.py) to SQLite databases using pandas.
 
-
+- [Sparsifying a matrix](https://github.com/rasbt/python_reference/blob/master/useful_scripts/sparsify_matrix.py) by zeroing out all elements but the top k elements in a row using NumPy.
 
 <br>
 
+###// Other
+
+- [Python book reviews](./other/python_book_reviews.md)
+- [Happy Mother's Day Plot](./other/happy_mothers_day.ipynb)
+
+<br>
 
 ###// Links
 [[back to top](#a-collection-of-useful-scripts-tutorials-and-other-python-related-things)]
 
 
 
-- [PyPI - the Python Package Index](https://pypi.python.org/pypi) - the official repository for all open source Python modules and packages  
+- [PyPI - the Python Package Index](https://pypi.python.org/pypi) - The official repository for all open source Python modules and packages.  
 
-- [PEP 8](http://legacy.python.org/dev/peps/pep-0008/) - The official style guide for Python code
+- [PEP 8](https://www.python.org/dev/peps/pep-0008/) - The official style guide for Python code.
+
+- [PEP 257](https://www.python.org/dev/peps/pep-0257/) - Python's official docstring conventions;  [pep257 - Python style guide checker](https://pypi.python.org/pypi/pep257)
 
 
+<br>
 
 **// News**
 
-- [Python subreddit](http://www.reddit.com/r/Python/) - my favorite resource to catch up with Python news and great Python-related articles
+- [Python subreddit](http://www.reddit.com/r/Python/) - My favorite resource to catch up with Python news and great Python-related articles.
 
-- [Python community on Google+](https://plus.google.com/communities/103393744324769547228) - a nice and friendly community to share and discuss everything about Python
+- [Python community on Google+](https://plus.google.com/communities/103393744324769547228) - A nice and friendly community to share and discuss everything about Python.
 
-- [Python Weekly](http://www.pythonweekly.com) - A free weekly newsletter featuring curated news, articles, new releases, jobs etc. related to Python
+- [Python Weekly](http://www.pythonweekly.com) - A free weekly newsletter featuring curated news, articles, new releases, jobs etc. related to Python.
 
 
+<br>
 
 **// Resources for learning Python**
 
-- [Learn Python The Hard Way](http://learnpythonthehardway.org/book/) - one of the most popular and recommended resources for learning Python  
+- [Learn Python The Hard Way](http://learnpythonthehardway.org/book/) - The popular and probably most recommended resource for learning Python.  
 
-- [Dive Into Python](http://www.diveintopython.net) / [Dive Into Python 3](http://getpython3.com/diveintopython3/) - a free Python book for experienced programmers
+- [Dive Into Python](http://www.diveintopython.net) / [Dive Into Python 3](http://getpython3.com/diveintopython3/) - A free Python book for experienced programmers.
 
-- [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/) - a free best-practice handbook for both novices and experts
+- [The Hitchhiker’s Guide to Python](http://docs.python-guide.org/en/latest/) - A free best-practice handbook for both novices and experts.
 
-- [Think Python - How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - an introduction for beginners starting with basic concepts of programming
+- [Think Python - How to Think Like a Computer Scientist](http://www.greenteapress.com/thinkpython/) - An introduction for beginners starting with basic concepts of programming.
+
+- [Python Patterns](http://matthiaseisen.com/pp/) -  A directory of proven, reusable solutions to common programming problems.
+
+<br>
 
 **// My favorite Python projects and packages**
 
-- [The IPython Notebook](http://ipython.org/notebook.html) - an interactive computational environment for combining code execution, documentation (with Markdown and LateX support), inline plots, and rich media all in one document.
+- [The IPython Notebook](http://ipython.org/notebook.html) - An interactive computational environment for combining code execution, documentation (with Markdown and LateX support), inline plots, and rich media all in one document.
 
-- [matplotlib](http://matplotlib.org) - Python's favorite plotting library
+- [matplotlib](http://matplotlib.org) - Python's favorite plotting library.
 
-- [NumPy](http://www.numpy.org) - a library for multi-dimensional arrays and matrices, along with a large library of high-level mathematical functions to operate on these arrays
+- [NumPy](http://www.numpy.org) - A library for multi-dimensional arrays and matrices, along with a large library of high-level mathematical functions to operate on these arrays.
 
-- [SciPy](http://www.scipy.org) - a library that provides various useful functions for numerical computing, such as modules for optimization, linear algebra, integration, interpolation, ...
-
-
-- [pandas](http://pandas.pydata.org) - high-performance, easy-to-use data structures and data analysis tools build on top of Numpy
-
-- [Cython](http://cython.org) - C-extensions for Python, an optimizing static compiler to combine Python and C code
-
-- [Numba](http://numba.pydata.org) - an just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators)
-
-- [scikit-learn](http://scikit-learn.org/stable/) - a powerful machine learning library for Python and tools for efficient data mining and analysis
+- [SciPy](http://www.scipy.org) - A library that provides various useful functions for numerical computing, such as modules for optimization, linear algebra, integration, interpolation, ...
 
 
+- [pandas](http://pandas.pydata.org) - High-performance, easy-to-use data structures and data analysis tools build on top of NumPy.
 
+- [Cython](http://cython.org) - C-extensions for Python, an optimizing static compiler to combine Python and C code.
+
+- [Numba](http://numba.pydata.org) - A just-in-time specializing compiler which compiles annotated Python and NumPy code to LLVM (through decorators)
+
+- [scikit-learn](http://scikit-learn.org/stable/) - A powerful machine learning library for Python and tools for efficient data mining and analysis.
